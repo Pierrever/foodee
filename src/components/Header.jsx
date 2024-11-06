@@ -9,7 +9,7 @@ export default function Header() {
         <h1></h1>
       </div>
       <nav>
-        <Button textOnly>Cart (0)</Button>
+        <Button textOnly>Cart (100)</Button>
       </nav>
     </header>
   );
