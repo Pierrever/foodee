@@ -5,6 +5,7 @@
 }
 
 body {
+  top: 10rem;
   margin: 0;
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,6 +20,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 10%;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
 }
 
 #main-header #title {

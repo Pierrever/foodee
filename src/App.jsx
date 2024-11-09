@@ -11,8 +11,8 @@ function App() {
     <>
       <UserProgressContextProvider>
         <CartContextProvider>
-          <Header />
-          <Meals />
+          <Header style={{ margin: "5rem 0" }} />
+          <Meals style={{ top: "5rem" }} />
 
           <Cart />
           <Checkout />

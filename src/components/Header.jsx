@@ -16,10 +16,10 @@ export default function Header() {
     userProgressCtx.showCart();
   }
   return (
-    <header id="main-header">
+    <header id="main-header" style={{ position: "fixed", zIndex: "1000" }}>
       <div id="title">
         <img src={logo} />
-        <h1></h1>
+        <h1 style={{ color: "white" }}>PEDRITO'S YUMMY</h1>
       </div>
       <nav>
         <Button textOnly onClick={handleShowCart}>
