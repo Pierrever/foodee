@@ -23,6 +23,7 @@ body {
   position: fixed;
   z-index: 9999;
   width: 100%;
+  opacity: 0.8;
 }
 
 #main-header #title {

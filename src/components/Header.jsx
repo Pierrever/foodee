@@ -19,7 +19,7 @@ export default function Header() {
     <header id="main-header" style={{ position: "fixed", zIndex: "1000" }}>
       <div id="title">
         <img src={logo} />
-        <h1 style={{ color: "white" }}>PEDRITO'S YUMMY</h1>
+        <h1 style={{ color: "rgb(255, 49, 49)" }}>PEDRITO'S YUMMY</h1>
       </div>
       <nav>
         <Button textOnly onClick={handleShowCart}>
