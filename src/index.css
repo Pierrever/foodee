@@ -5,7 +5,6 @@
 }
 
 body {
-  top: 10rem;
   margin: 0;
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,10 +19,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 10%;
-  position: fixed;
-  z-index: 9999;
-  width: 100%;
-  opacity: 0.8;
 }
 
 #main-header #title {
@@ -37,7 +32,7 @@ body {
   height: 4rem;
   object-fit: contain;
   border-radius: 50%;
-  border: 3px solid #ffc404;
+  border: 2px solid #ffc404;
 }
 
 #main-header button {
@@ -252,6 +247,28 @@ h1 {
 
 .modal::backdrop {
   background-color: rgba(0, 0, 0, 0.55);
+}
+
+.center {
+  text-align: center;
+}
+
+.error {
+  width: 90%;
+  max-width: 25rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9b8b8;
+  color: #6d0b0b;
+  border-radius: 6px;
+}
+
+.error h2 {
+  margin: 0;
+}
+
+.error p {
+  margin: 0;
 }
 
 @keyframes fade-slide-up {
